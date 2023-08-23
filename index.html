@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/portfolio1.png"  class="logo">
+
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <center><div class="header-text" >
+            <p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<b>Full Stack Developer </b></p>
+            <h1>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Hi, I'm <span>Abhimayu</span> </h1>
+            <h1>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Singh From <span>India.</span></h1>
+
+        </div></center>
+    </div>
+</div>
+<!-- -----------about---------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/abhi2.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+               <p>Hey there,
+                My Name is Abhimanyu Singh, I have done B.Tech in Computer Science and Engineering from Institute of Engineering and Technology (IET),Dr Ram Manohar Lohia Avadh University Ayodhya, Uttar Pradesh.
+                I have completed my graduation in 2022.
+                I am an enthusiastic, Dynamic and Passionate CSE student with strong interest in problem -solving skills & familiarity with Web development and Databases.
+                Energetic Student currently persuing Post Graduate - Diploma in Advanced Computing (PG-DAC) - specialization in Full Stack Development from Sunbeam Institute of Information Technology, Pune Maharashtra.
+                Eager to embark on a professional career and make a positive impact in the field.
+                Aiming to use my knowledge to effectively handle the tasks assigned and also to establish the healthy working relationship with the organisation
+                In short term I would like to gain exploser while working on all types of projects.
+                
+                Todays environment has become so unpridictable,we don't even know what's going to happen tomorrow......
+                A few of the goal I have set for myself over the next few years include acquiring management skills within my position to up-skill my knowledge
+                
+                Over the next few years,I see myself taking on new and exciting projects.
+                My Career objective is to achieve best position where I can build my career & help the organisation too.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Frontend Web Development</span><br>It is fun and creative.
+                            It is flexible - you can work from anywhere!</li>
+                        <li><span>DataBase Design(MySQL)</span><br>Database Developers, also called database programmers, are primarily responsible for creating and implementing computer databases.</li>
+                        <li><span>Data Struture and Algorithm</span><br>A computer program is a collection of instructions to perform a specific task. For this, a computer program may need to store data, retrieve data, and perform computations on the data.
+                        </li>
+                        <li><span>MERN</span><br>MERN Stack is a Javascript Stack that is used for easier and faster deployment of full-stack web applications. MERN Stack comprises of 4 technologies namely: MongoDB, Express, React and Node.js.</li>
+                        <li><span>Java</span><br>Core Java + Java Frameworks(Spring,Hibernate)</li>
+
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2023 - Current</span><br>Frontend Web Developer(Apprenticeship)at Sunbeam Pune</li>
+                        <li><span>06/2019 -08/2019</span><br>Web Developer(INTERNSHIP)at Softpro India</li>
+                        <li><span>09/2022 - 11/2022</span><br>PreCAT(TRAINING)at Sunbeam Pune </li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    
+                    <ul>
+                        <li><span>2023</span></li>
+                        <li><strong>Post Graduate Diploma In Advanced Computing(PG-DAC)</strong></li>
+                        <p>Sunbeam Institute of Information Technology,Pune Maharashtra</p>
+                    </ul>
+
+                    <ul>
+                        <li><span>2018-2022</span></li>
+                        <li><strong>Graduation-Bachelor of Technology (B.Tech- C.S.E)</strong></li>
+                        <p>Institute of Engineering and Technology (IET) , Dr Ram Manohar Lohia Avadh University Ayodhya, Uttar Pradesh.</p>
+                    </ul>
+                    
+                    
+                    <ul>
+                         <li><span>2015-2017</span></li>
+                         <li><strong>Senior Secondary (Intermediate)</strong></li>
+                         <p>G.N National Public School Gorakhnath Gorakhpur,U.P</p>
+                    </ul>
+                        
+
+                    <ul>
+                        <li><span>2014-2015</span></li>
+                        <li><strong>High School(10th) </strong></li>
+                        <p>P.G Senior Secondary School Captainganj Kushinagar, U.P</p>
+                    </ul>
+                
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ---------services---------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>Frontend Web Development</h2>
+           
+            <p> It is fun and creative.
+                It is flexible - you can work from anywhere!
+                A front-end developer creates websites and applications using web languages such as HTML, CSS, and JavaScript that allow users to access and interact with the site or app. When you visit a website, the design elements you see were created by a front-end developer.    
+            </p>
+                <a href="#">Learn more</a>
+            </div>
+            
+            <div>
+                <i class="fas fa-crop-alt"></i>
+                <h2>DataBase Design</h2>
+                <p>Database Developers, also called database programmers, are primarily responsible for creating and implementing computer databases. They determine the best database management system for a particular client, as well as test database programs for efficiency and performance and troubleshoot and correct problems.
+                 A Database Developer typically works for a corporate IT department in any industry.
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+            
+            <div>
+                <i class="fab fa-app-store"></i>
+                <h2>Data Struture and Algorithm</h2>
+                <p>A computer program is a collection of instructions to perform a specific task. For this, a computer program may need to store data, retrieve data, and perform computations on the data.
+
+                    A data structure is a named location that can be used to store and organize data. And, an algorithm is a collection of steps to solve a particular problem. Learning data structures and algorithms allow us to write efficient and optimized computer programs.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ----------portfolio------------ -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The app connects you yo the talented people around the world. Download it from play store.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>The app connects you yo the talented people around the world. Download it from play store.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>The app connects you yo the talented people around the world. Download it from play store.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-- ----------contact------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i>abhimanyusingh.cpj.gkp@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i>+918756304035</p>
+                <div class="social-icons">
+                    <a href="https://www.youtube.com/channel/UCcbiJ6pa42dFiEoNxIgniyg"><i class="fab fa-youtube"></i></a>
+                    <a href="https://twitter.com/AbhimanyuCpj?s=08"><i class="fab fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/abhi_singh_1/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/abhimanyu-singh-0424911b1"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://m.facebook.com/?_rdr"><i class="fab fa-facebook"></i></a>
+
+                </div>
+                <a href="images/My-CV.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Abhimayu. Made wtih <i class="fas fa-heart"></i> by <a href="https://youtube.com/@abhi_the_rock">abhi_the_rock</a></p>
+    </div>
+</div>
+
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+
+</script>
+<script>
+    const scriptURL = '< add you own link here >' // add your own app script link here
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
